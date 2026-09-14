@@ -1,0 +1,9 @@
+# 3. Can we have a set with 18 (int) and '18' (str) as a value in it? 
+
+s = set()
+
+s.add(18)
+s.add("18")
+
+print(s) # Yes, beacause int and str are different data types. This is not a duplicate value
+
