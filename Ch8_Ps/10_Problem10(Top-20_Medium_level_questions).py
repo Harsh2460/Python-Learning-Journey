@@ -31,11 +31,11 @@ print("Largest:",result)
 
 def check_number(n):
     if n > 0:
-        return Postive 
+        return "Postive" 
     elif n < 0:
-        return Negative
+        return "Negative"
     else:
-        return Zero
+        return "Zero"
 
 n = int(input("Enter the number: "))
 print(check_number(n))
@@ -180,9 +180,9 @@ def is_armstrong(n):
         n //= 10
 
     if num == total:
-        return Armstrong Number
+        return "Armstrong Number"
     else:
-        return Not a Armstrong Number
+        return "Not a Armstrong Number"
 
 n = int(input("Enter the number: "))
 print(is_armstrong(n))
